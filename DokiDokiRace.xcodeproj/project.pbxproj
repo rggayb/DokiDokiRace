@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4687352C2BF5290A00ACA8E6 /* DokiDokiRaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4687352B2BF5290A00ACA8E6 /* DokiDokiRaceApp.swift */; };
+		4687352E2BF5290A00ACA8E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4687352D2BF5290A00ACA8E6 /* ContentView.swift */; };
+		468735302BF5290B00ACA8E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4687352F2BF5290B00ACA8E6 /* Assets.xcassets */; };
+		468735332BF5290B00ACA8E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 468735322BF5290B00ACA8E6 /* Preview Assets.xcassets */; };
+		468735392BF5290B00ACA8E6 /* DokiDokiRace Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 468735382BF5290B00ACA8E6 /* DokiDokiRace Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4687353E2BF5290B00ACA8E6 /* DokiDokiRaceApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4687353D2BF5290B00ACA8E6 /* DokiDokiRaceApp.swift */; };
+		468735402BF5290B00ACA8E6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4687353F2BF5290B00ACA8E6 /* ContentView.swift */; };
+		468735422BF5290D00ACA8E6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 468735412BF5290D00ACA8E6 /* Assets.xcassets */; };
+		468735452BF5290D00ACA8E6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 468735442BF5290D00ACA8E6 /* Preview Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4687353A2BF5290B00ACA8E6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 468735202BF5290900ACA8E6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 468735372BF5290B00ACA8E6;
+			remoteInfo = "DokiDokiRace Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4687354B2BF5290D00ACA8E6 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				468735392BF5290B00ACA8E6 /* DokiDokiRace Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		468735282BF5290A00ACA8E6 /* DokiDokiRace.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DokiDokiRace.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4687352B2BF5290A00ACA8E6 /* DokiDokiRaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DokiDokiRaceApp.swift; sourceTree = "<group>"; };
+		4687352D2BF5290A00ACA8E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4687352F2BF5290B00ACA8E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		468735322BF5290B00ACA8E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		468735382BF5290B00ACA8E6 /* DokiDokiRace Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "DokiDokiRace Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4687353D2BF5290B00ACA8E6 /* DokiDokiRaceApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DokiDokiRaceApp.swift; sourceTree = "<group>"; };
+		4687353F2BF5290B00ACA8E6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		468735412BF5290D00ACA8E6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		468735442BF5290D00ACA8E6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		468735252BF5290A00ACA8E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		468735352BF5290B00ACA8E6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4687351F2BF5290900ACA8E6 = {
+			isa = PBXGroup;
+			children = (
+				4687352A2BF5290A00ACA8E6 /* DokiDokiRace */,
+				4687353C2BF5290B00ACA8E6 /* DokiDokiRace Watch App */,
+				468735292BF5290A00ACA8E6 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		468735292BF5290A00ACA8E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				468735282BF5290A00ACA8E6 /* DokiDokiRace.app */,
+				468735382BF5290B00ACA8E6 /* DokiDokiRace Watch App.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4687352A2BF5290A00ACA8E6 /* DokiDokiRace */ = {
+			isa = PBXGroup;
+			children = (
+				4687352B2BF5290A00ACA8E6 /* DokiDokiRaceApp.swift */,
+				4687352D2BF5290A00ACA8E6 /* ContentView.swift */,
+				4687352F2BF5290B00ACA8E6 /* Assets.xcassets */,
+				468735312BF5290B00ACA8E6 /* Preview Content */,
+			);
+			path = DokiDokiRace;
+			sourceTree = "<group>";
+		};
+		468735312BF5290B00ACA8E6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				468735322BF5290B00ACA8E6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4687353C2BF5290B00ACA8E6 /* DokiDokiRace Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				4687353D2BF5290B00ACA8E6 /* DokiDokiRaceApp.swift */,
+				4687353F2BF5290B00ACA8E6 /* ContentView.swift */,
+				468735412BF5290D00ACA8E6 /* Assets.xcassets */,
+				468735432BF5290D00ACA8E6 /* Preview Content */,
+			);
+			path = "DokiDokiRace Watch App";
+			sourceTree = "<group>";
+		};
+		468735432BF5290D00ACA8E6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				468735442BF5290D00ACA8E6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		468735272BF5290A00ACA8E6 /* DokiDokiRace */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4687354C2BF5290D00ACA8E6 /* Build configuration list for PBXNativeTarget "DokiDokiRace" */;
+			buildPhases = (
+				468735242BF5290A00ACA8E6 /* Sources */,
+				468735252BF5290A00ACA8E6 /* Frameworks */,
+				468735262BF5290A00ACA8E6 /* Resources */,
+				4687354B2BF5290D00ACA8E6 /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4687353B2BF5290B00ACA8E6 /* PBXTargetDependency */,
+			);
+			name = DokiDokiRace;
+			productName = DokiDokiRace;
+			productReference = 468735282BF5290A00ACA8E6 /* DokiDokiRace.app */;
+			productType = "com.apple.product-type.application";
+		};
+		468735372BF5290B00ACA8E6 /* DokiDokiRace Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 468735482BF5290D00ACA8E6 /* Build configuration list for PBXNativeTarget "DokiDokiRace Watch App" */;
+			buildPhases = (
+				468735342BF5290B00ACA8E6 /* Sources */,
+				468735352BF5290B00ACA8E6 /* Frameworks */,
+				468735362BF5290B00ACA8E6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "DokiDokiRace Watch App";
+			productName = "DokiDokiRace Watch App";
+			productReference = 468735382BF5290B00ACA8E6 /* DokiDokiRace Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		468735202BF5290900ACA8E6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1540;
+				TargetAttributes = {
+					468735272BF5290A00ACA8E6 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					468735372BF5290B00ACA8E6 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+				};
+			};
+			buildConfigurationList = 468735232BF5290900ACA8E6 /* Build configuration list for PBXProject "DokiDokiRace" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4687351F2BF5290900ACA8E6;
+			productRefGroup = 468735292BF5290A00ACA8E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				468735272BF5290A00ACA8E6 /* DokiDokiRace */,
+				468735372BF5290B00ACA8E6 /* DokiDokiRace Watch App */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		468735262BF5290A00ACA8E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				468735332BF5290B00ACA8E6 /* Preview Assets.xcassets in Resources */,
+				468735302BF5290B00ACA8E6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		468735362BF5290B00ACA8E6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				468735452BF5290D00ACA8E6 /* Preview Assets.xcassets in Resources */,
+				468735422BF5290D00ACA8E6 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		468735242BF5290A00ACA8E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4687352E2BF5290A00ACA8E6 /* ContentView.swift in Sources */,
+				4687352C2BF5290A00ACA8E6 /* DokiDokiRaceApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		468735342BF5290B00ACA8E6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				468735402BF5290B00ACA8E6 /* ContentView.swift in Sources */,
+				4687353E2BF5290B00ACA8E6 /* DokiDokiRaceApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4687353B2BF5290B00ACA8E6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 468735372BF5290B00ACA8E6 /* DokiDokiRace Watch App */;
+			targetProxy = 4687353A2BF5290B00ACA8E6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		468735462BF5290D00ACA8E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		468735472BF5290D00ACA8E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		468735492BF5290D00ACA8E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DokiDokiRace Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = F7WR45KMA2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DokiDokiRace;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.rbrata24-app.DokiDokiRace";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rbrata24-app.DokiDokiRace.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Debug;
+		};
+		4687354A2BF5290D00ACA8E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DokiDokiRace Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = F7WR45KMA2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DokiDokiRace;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = "com.rbrata24-app.DokiDokiRace";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rbrata24-app.DokiDokiRace.watchkitapp";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 10.5;
+			};
+			name = Release;
+		};
+		4687354D2BF5290D00ACA8E6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DokiDokiRace/Preview Content\"";
+				DEVELOPMENT_TEAM = F7WR45KMA2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DokiDokiRace;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rbrata24-app.DokiDokiRace";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4687354E2BF5290D00ACA8E6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DokiDokiRace/Preview Content\"";
+				DEVELOPMENT_TEAM = F7WR45KMA2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = DokiDokiRace;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.rbrata24-app.DokiDokiRace";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		468735232BF5290900ACA8E6 /* Build configuration list for PBXProject "DokiDokiRace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				468735462BF5290D00ACA8E6 /* Debug */,
+				468735472BF5290D00ACA8E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		468735482BF5290D00ACA8E6 /* Build configuration list for PBXNativeTarget "DokiDokiRace Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				468735492BF5290D00ACA8E6 /* Debug */,
+				4687354A2BF5290D00ACA8E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4687354C2BF5290D00ACA8E6 /* Build configuration list for PBXNativeTarget "DokiDokiRace" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4687354D2BF5290D00ACA8E6 /* Debug */,
+				4687354E2BF5290D00ACA8E6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 468735202BF5290900ACA8E6 /* Project object */;
+}
